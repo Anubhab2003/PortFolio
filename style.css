@@ -1,0 +1,61 @@
+/* 1. Reset margins */
+body {
+    margin: 0;
+  }
+  
+  /* 2. Set up the container for the navbar */
+  .navbar {
+    overflow: hidden;
+    background-color: #333; /* Set the background color of the navbar */
+  }
+  
+  /* 3. Style the navigation links */
+  .navbar a {
+    float: left; /* Make the navbar links float to the left */
+    display: block; /* Make the navbar links behave like block elements */
+    color: white; /* Set the color of the navbar links */
+    text-align: center; /* Center-align the navbar links */
+    padding: 14px 24px; /* Add padding to the navbar links */
+    text-decoration: none; /* Remove underlines from the navbar links */
+  }
+  
+  /* 4. Style the navbar link when it hovers */
+  .navbar a:hover, .navbar a:active {
+    background-color: #ddd; /* Add a hover effect to the navbar links */
+    color: black; /* Change the color of the navbar links on hover */
+  }
+  .content h1{
+    text-decoration: none;
+    text-align:right;
+  }
+.image{
+    float:left;
+    height:500px;
+}
+.content{
+    text-align: center;
+    text-shadow:4px 1px 2px rgb(1, 0, 0);
+    font-weight: bolder;
+    font-size:100px;
+    
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    background-color: #333;
+    display: block;
+  }
+  
+  footer a {
+    color: white;
+    margin: 0 10px; /* Adjust the margin value as needed */
+  }
+  
+  footer a:hover {
+    color: tomato;
+  }
+  
+

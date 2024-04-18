@@ -57,5 +57,24 @@ footer {
   footer a:hover {
     color: tomato;
   }
-  
+  .context{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    padding: 8px;
+  }
+div p:hover{
+  color: rgb(239, 78, 14);
+}
+div.skill{
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+div h2:hover{
+  color: rgb(239, 78, 14);
+}
+div h2.social{
+  text-align: center;
+}
 

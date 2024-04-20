@@ -74,5 +74,37 @@ div.skill{
 div h2:hover{
   color: rgb(239, 78, 14);
 }
+div h1:hover{
+
+  color: rgb(239, 78, 14);
+  
+}
+div .friday{
+  
+  margin-left: 30%;
+  margin-right: auto;
+  width: 50%;
+  padding:10px
+}
+.friday img:hover{
+  transform: scale(1.3);
+}
+.friday img{
+  transition: transform 0.2s ease-in-out;
+}
+div .weather{
+  
+  margin-left: 4%;
+  margin-right: auto;
+  width: 50%;
+  padding:10px
+}
+.weather img:hover{
+  transform: scale(1.3);
+}
+.weather img{
+  transition: transform 0.2s ease-in-out;
+}
+
 
 

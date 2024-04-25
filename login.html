@@ -4,10 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    <H1>
-        UPDATE WILL BE MAKE SOON
-    </H1>
+    <div class="container">
+        <form action="http://localhost:3000/submit-form" methord="POST">
+            <h1 class="main_heading">Login</h1>
+            <p>Username:<input type="text"></p>
+            <p>Password:<input type="password"></p>
+
+            <input type="submit"value="LOGIN">
+
+            <p class="signup">Or Signup using</p>
+            <a align="center" class="signup" href="signup.html">SIGN UP</a>
+        </form>
+    </div>
 </body>
 </html>

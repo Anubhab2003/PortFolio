@@ -6,7 +6,9 @@ body {
   /* 2. Set up the container for the navbar */
   .navbar {
     overflow: hidden;
-    background-color: #333; /* Set the background color of the navbar */
+    background-color: #333;
+    display: flex;
+    justify-content: space-evenly; /* Set the background color of the navbar */
   }
   
   /* 3. Style the navigation links */
@@ -119,5 +121,46 @@ div .morse{
   transition: transform 0.2s ease-in-out;
 }
 
+
+
+
+/* ... your existing CSS styles */
+
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: sans-serif;
+}
+
+/* Styles for dark mode */
+.dark-mode {
+  background-color: #222;
+  color: #ddd;
+}
+
+/* Toggle button styles (optional) */
+#dark-mode-toggle {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #333;
+  color: #fff;
+  transition: background-color 0.3s ease;
+  
+  font-weight: bolder;
+  
+}
+
+#dark-mode-toggle:hover {
+  background-color: #444;
+}
+
+.dark-mode #dark-mode-toggle {
+  background-color: #ddd;
+  color: #333;
+}
+
+/* ... rest of your CSS styles */
 
 

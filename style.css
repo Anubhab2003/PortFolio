@@ -162,5 +162,8 @@ body {
 }
 
 /* ... rest of your CSS styles */
-
+.resume{
+  font-family: cursive;
+  color: red;
+}
 

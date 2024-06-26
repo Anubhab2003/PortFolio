@@ -82,50 +82,127 @@ div h1:hover{
   color: rgb(239, 78, 14);
   
 }
-div .friday{
-  
-  margin-left: 35%;
-  margin-right: auto;
-  width: 50%;
-  padding:10px
-}
-.friday img:hover{
-  transform: scale(1.3);
-}
-.friday img{
-  transition: transform 0.2s ease-in-out;
-}
-div .weather{
-  
-  margin-left: 4%;
-  margin-right: auto;
-  width: 50%;
-  padding:10px
-}
-.weather img:hover{
-  transform: scale(1.3);
-}
-.weather img{
-  transition: transform 0.2s ease-in-out;
-}
-div .morse{
-  
-  margin-left: 4%;
-  margin-right: auto;
-  width: 50%;
-  padding:10px
-}
-.morse img:hover{
-  transform: scale(1.3);
-}
-.morse img{
-  transition: transform 0.2s ease-in-out;
+/* CHATGPT CODE */
+/* Main container styling */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh; /* Full screen height */
+  /* background-color: #f0f0f0; Light background for contrast */
+  padding: 10px; /* Padding around the main container */
 }
 
+/* Styling for the h1 */
+.main-container h1 {
+  margin-bottom: 20px; /* Space below the heading */
+  font-size: 2em;
+  text-align: center;
+}
 
+/* Flexbox 1 container styling */
+.flexbox-1 {
+  display: flex;
+  flex-direction: row; /* Align items in a row */
+  justify-content: center; /* Center the items horizontally */
+  gap: 20px; /* Space between items */
+  margin-bottom: 20px; /* Space below the first flexbox */
+}
 
+/* Flexbox 2 container styling */
+.flexbox-2 {
+  display: flex;
+  flex-direction: row; /* Align items in a row */
+  justify-content: center; /* Center the items horizontally */
+  gap: 20px; /* Space between items */
+}
 
-/* ... your existing CSS styles */
+/* Common styles for all project links */
+.project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.2s ease-in-out; /* Smooth scaling */
+}
+
+.project img {
+  width: 95px; /* Standard width */
+  height: 95px; /* Standard height */
+}
+
+.project:hover img {
+  transform: scale(1.3); /* Zoom effect on hover */
+}
+
+/* Individual project link styles */
+
+/* To-Do App */
+.todo {
+  padding: 10px; /* Padding within the link */
+}
+.todo img {
+  transition: transform 0.2s ease-in-out; /* Smooth scaling */
+}
+.todo img:hover {
+  transform: scale(1.3); /* Zoom effect on hover */
+}
+
+/* Friday Project */
+.friday {
+  padding: 10px; /* Padding within the link */
+}
+.friday img {
+  transition: transform 0.2s ease-in-out; /* Smooth scaling */
+}
+.friday img:hover {
+  transform: scale(1.3); /* Zoom effect on hover */
+}
+
+/* Weather App */
+.weather {
+  padding: 10px; /* Padding within the link */
+}
+.weather img {
+  transition: transform 0.2s ease-in-out; /* Smooth scaling */
+}
+.weather img:hover {
+  transform: scale(1.3); /* Zoom effect on hover */
+}
+
+/* Morse Code Project */
+.morse {
+  padding: 10px; /* Padding within the link */
+}
+.morse img {
+  transition: transform 0.2s ease-in-out; /* Smooth scaling */
+}
+.morse img:hover {
+  transform: scale(1.3); /* Zoom effect on hover */
+}
+
+/* Meme Generator */
+.memeGenerator {
+  padding: 10px; /* Padding within the link */
+}
+.memeGenerator img {
+  transition: transform 0.2s ease-in-out; /* Smooth scaling */
+}
+.memeGenerator img:hover {
+  transform: scale(1.3); /* Zoom effect on hover */
+}
+
+/* Another Project (add this class for future projects) */
+.anotherProject {
+  padding: 10px; /* Padding within the link */
+}
+.anotherProject img {
+  transition: transform 0.2s ease-in-out; /* Smooth scaling */
+}
+.anotherProject img:hover {
+  transform: scale(1.3); /* Zoom effect on hover */
+}
+
 
 body {
   background-color: #fff;
